@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/img/logo_rachaclub.png">
+    <title>RachaClub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="/assets/css/noticias.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+             <a href="/index.html">
+                <img src="/assets/img/logo_rachaclub.png" alt="Logo RachaClub">
+            </a>
+            <ul>
+               <li><a href="/index.html">Inicio</a></li>
+                <li class="drop-hover-carros"><a href="#">Carros <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="drop">
+                        <a href="/pages/carros_paises/alemanha.html">Alemanha</a>
+                        <a href="/pages/carros_paises/brasil.html">Brasil</a>
+                        <a href="/pages/carros_paises/eua.html">Eua</a>
+                        <a href="/pages/carros_paises/franca.html">França</a>
+                        <a href="/pages/carros_paises/italia.html">Ítalia</a>
+                        <a href="/pages/carros_paises/japao.html">Japão</a>
+                        <a href="/pages/carros_paises/reino-unido.html">Reino-Unido</a>
+                    </div>
+                </li>
+                <li class="drop-hover-categorias"><a href="#">Categorias <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="drop">
+                        <a href="/pages/ranking_carros/mais_rapidos.html">Mais Rápidos</a>
+                        <a href="/pages/ranking_carros/melhor_aceleracao.html">Melhor Aceleração</a>
+                        <a href="/pages/ranking_carros/maior_potencia.html">Maior Potência</a>
+                        <a href="/pages/ranking_carros/mais_caros.html">Mais Caros</a>
+                        <a href="/pages/ranking_carros/custo_beneficio.html">Melhores Custo-Benefício</a>
+                        <a href="/pages/ranking_carros/tecnologicos.html">Mais Tecnológicos</a>
+                        <a href="/pages/ranking_carros/mais_raros.html">Mais Raros</a>
+                    </div>
+                </li>
+                  <li><a href="/pages/projetos.html">Projetos</a></li>
+                <li><a href="/pages/noticias.html">Notícias</a></li>
+                <li><a href="/pages/sobre_nos.html">Sobre Nós</a></li>
+            </ul>
+            <button id="btnTema">☾</button>
+
+            <div class="container">
+                <div id="mensagem" class="fade"></div>
+            </div>
+        </div>
+        <hr class="linha-navbar">
+
+    </header>
+
+    <div class="bandeiras-carousel">
+        <div class="alemanha">
+            <a href="/pages/carros_paises/alemanha.html">
+                <img src="/assets/img/bandeiras-navbar/alemanha.png" alt="Alemanha">
+            </a>
+        </div>
+
+        <div class="brasil">
+            <a href="/pages/carros_paises/brasil.html">
+                <img src="/assets/img/bandeiras-navbar/brasil.png" alt="Brasil">
+            </a>
+        </div>
+
+        <div class="eua">
+            <a href="/pages/carros_paises/eua.html">
+                <img src="/assets/img/bandeiras-navbar/eua.png" alt="EUA">
+            </a>
+        </div>
+
+        <div class="franca">
+            <a href="/pages/carros_paises/franca.html">
+                <img src="/assets/img/bandeiras-navbar/frança.png" alt="França">
+            </a>
+        </div>
+
+        <div class="italia">
+            <a href="/pages/carros_paises/italia.html">
+                <img src="/assets/img/bandeiras-navbar/italia.png" alt="Italia">
+            </a>
+        </div>
+
+        <div class="japao">
+            <a href="/pages/carros_paises/japao.html">
+                <img src="/assets/img/bandeiras-navbar/japao.png" alt="Japao">
+            </a>
+        </div>
+
+        <div class="reino-unido">
+            <a href="/pages/carros_paises/reino-unido.html">
+                <img src="/assets/img/bandeiras-navbar/reino_unido.png" alt="Reino-Unido">
+            </a>
+        </div>
+    </div>
+
+
+    <div class="hidden">
+        <section class="notcontainer">
+            <h2 class="noth2">ÚLTIMAS NOTÍCIAS</h2>
+
+            <p class="descricao">Confira as últimas notícias do mundo automotivo e fique por dentro de tudo que está
+                acontecendo no universo da velocidade!
+            </p>
+        </section>
+    </div>
+
+    <div class="hidden">
+
+        <div class="cards">
+
+            <a href="https://oglobo.globo.com/economia/fotos/2025/10/carros-voadores-eletricos-luxuosos-e-esportivos-veja-show-de-imagens-das-novidades-da-japan-mobility-show.ghtml"
+                target="_blank">
+                <div class="card">
+                    <img src="/assets/img/carros_noticias/carro1_noticias.png" alt="c1">
+                    <div class="infocard">
+                        <h3>O Globo. </h3>
+                        <hr class="hrcard">
+                        <h4>Carros voadores, eletricos, luxuosos e esportivos: veja show de imagens das novidades da
+                            JMS.
+                        </h4>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://motor1.uol.com.br/news/751906/toyota-nao-desistira-carros-esportivos/" target="_blank">
+                <div class="card">
+                    <img src="/assets/img/carros_noticias/carro2_noticias.png" alt="c2">
+                    <div class="infocard">
+                        <h3>Motor 01.</h3>
+                        <hr class="hrcard">
+                        <h4>Toyota não desistirá dos carros esportivos tão cedo.</h4>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://noticias.r7.com/brasilia/auto-record/video/mercedes-benz-promove-experiencia-exclusiva-com-carros-esportivos-amg-29092025/"
+                target="_blank">
+                <div class="card">
+                    <img src="/assets/img/carros_noticias/carro3_noticias.png" alt="c3">
+                    <div class="infocard">
+                        <h3>R7.</h3>
+                        <hr class="hrcard">
+                        <h4>Mercedez-Benz promove experiência exclusiva com carros esportivos AMG.</h4>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://brasil.perfil.com/carros/brasileiros-redescobrem-a-paixao-por-dirigir-com-esportivos-mais-baratos-do-mercado.phtml"
+                target="_blank">
+                <div class="card">
+                    <img src="/assets/img/carros_noticias/carro4_noticias.png" alt="c4">
+                    <div class="infocard">
+                        <h3>Perfil Brasil</h3>
+                        <hr class="hrcard">
+                        <h4>Brasileiros redescobrem a paixão por dirigir com esportivos mais baratos do mercado.</h4>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.automaistv.com.br/novidades/volkswagen-golf-gti-retorna-ao-brasil-apos-seis-anos-com-ajustes-exclusivos-no-brasil-e-sem-rival-direto/"
+                target="_blank">
+                <div class="card">
+                    <img src="/assets/img/carros_noticias/carro5_noticias.png" alt="c5">
+                    <div class="infocard">
+                        <h3>Auto+TV.</h3>
+                        <hr class="hrcard">
+                        <h4>Volkswagen Golf GTI retorna ao Brasil após seis anos com ajustes exclusivos e sem rival
+                            direto
+                        </h4>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.motoragora.com.br/ferrari-f8-tributo-tem-producao-encerrada/" target="_blank">
+                <div class="card">
+                    <img src="/assets/img/carros_noticias/carro6_noticias.png" alt="c6">
+                    <div class="infocard">
+                        <h3>Agora Motor</h3>
+                        <hr class="hrcard">
+                        <h4>A Ferrari F8 Tributo encerrou sua produção: segundo reportado, a última unidade do cupê foi
+                            entregue nos EUA e a Ferrari agora foca mais na versão conversível Spider.</h4>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.terra.com.br/esportes/automobilismo/porsche-nao-descarta-retorno-ao-wec-afirma-laudenbach,c19f285e446fc49c5f36f1fcce922520pf1g5z0v.html"
+                target="_blank">
+                <div class="card">
+                    <img src="/assets/img/carros_noticias/carro7_noticias.png" alt="c7">
+                    <div class="infocard">
+                        <h3>Terra</h3>
+                        <hr class="hrcard">
+                        <h4>Porsche não descarta retorno ao WEC, afirma Laudenbach
+                            Fabricante alemã encerra programa no WEC em 2025, foca em IMSA e Fórmula E, mas mantém
+                            diálogo para possível volta no futuro
+                        </h4>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.automaistv.com.br/novidades/sucessor-do-bugatti-chiron-sera-revelado-em-breve-e-vira-hibrido/"
+                target="_blank">
+                <div class="card">
+                    <img src="/assets/img/carros_noticias/carro8_noticias.png" alt="c8">
+                    <div class="infocard">
+                        <h3>Auto+TV.</h3>
+                        <hr class="hrcard">
+                        <h4>A Bugatti planeja revelar em breve o sucessor do Chiron: será um hiper-esportivo híbrido com
+                            um
+                            motor “V16” (8.3 L) a combustão + três propulsores elétricos, gerando cerca de 1.800 cv.
+                        </h4>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.motor1.com/news/661782/2000-nissan-r34-skyline-gt-r-auction-paul-walker-driven-fast-and-furious/"
+                target="_blank">
+                <div class="card">
+                    <img src="/assets/img/carros_noticias/carro9_noticias.jpg" alt="c9">
+                    <div class="infocard">
+                        <h3>Motor 01.</h3>
+                        <hr class="hrcard">
+                        <h4>Nissan R34 Skyline dirigido por Paul Walker em Velozes e Furiosos vai a leilão.</h4>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://motor1.uol.com.br/news/737533/bmw-lanca-m3-competition-2025/" target="_blank">
+                <div class="card">
+                    <img src="/assets/img/carros_noticias/carro10_noticias.png" alt="c10">
+                    <div class="infocard">
+                        <h3>Motor 01.</h3>
+                        <hr class="hrcard">
+                        <h4>A BMW lançou a M3 Competition 2025 no Brasil com preço inicial de R$ 858.950 .Há também a
+                            versão
+                            Competition Track, vendida no Brasil por R$ 961.950, com itens exclusivos de performance.
+                        </h4>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <ul>
+                <h3>RachaClub</h3>
+                <h4>Onde a velocidade encontra a cultura.</h4>
+                <img class="logo" src="/assets/img/logo_rachaclub.png" alt="Logo RachaClub">
+            </ul>
+
+            <ul>
+                <h3>MAPA DO SITE</h3>
+                 <li><a href="/index.html">Inicio</a></li>
+                <li class="footer-drop-hover">
+                    <a href="#">Carros <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="footer-drop">
+                        <a href="/pages/carros_paises/alemanha.html">Alemanha</a>
+                        <a href="/pages/carros_paises/brasil.html">Brasil</a>
+                        <a href="/pages/carros_paises/eua.html">Eua</a>
+                        <a href="/pages/carros_paises/franca.html">França</a>
+                        <a href="/pages/carros_paises/italia.html">Ítalia</a>
+                        <a href="/pages/carros_paises/japao.html">Japão</a>
+                        <a href="/pages/carros_paises/reino-unido.html">Reino-Unido</a>
+                    </div>
+                </li>
+
+                <li class="footer-drop-hover">
+                    <a href="#">Categorias <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="footer-drop">
+                        <a href="/pages/ranking_carros/mais_rapidos.html">Mais Rápidos</a>
+                        <a href="/pages/ranking_carros/melhor_aceleracao.html">Melhor Aceleração</a>
+                        <a href="/pages/ranking_carros/maior_potencia.html">Maior Potência</a>
+                        <a href="/pages/ranking_carros/mais_caros.html">Mais Caros</a>
+                        <a href="/pages/ranking_carros/custo_beneficio.html">Melhor Custo-Benefício</a>
+                        <a href="/pages/ranking_carros/tecnologicos.html">Mais Tecnológicos</a>
+                        <a href="/pages/ranking_carros/mais_raros.html">Mais Raros</a>
+                    </div>
+                </li>
+
+                <li><a href="/pages/projetos.html">Projetos</a></li>
+                <li><a href="/pages/noticias.html">Noticias</a></li>
+                <li><a href="/pages/sobre_nos.html">Sobre Nós</a></li>
+            </ul>
+
+            <ul>
+                <h3>CONTATO</h3>
+                <li><i class="fa-solid fa-house"></i> ETEC DE GUARULHOS</li>
+                <li><i class="fa-solid fa-envelope"></i> rachaclub@gmail.com</li>
+                <li><i class="fa-solid fa-phone-flip"></i> +55 (11) 99999-9999</li>
+            </ul>
+        </div>
+
+
+    </footer>
+
+    <div class="copy">
+        <p>
+            &copy; 2025 RachaClub. Todos os direitos reservados.
+        </p>
+    </div>
+
+    <script src="/assets/js/noticias.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/img/logo_rachaclub.png">
+    <title>RachaClub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/assets/css/ranking_carros/mais_caros.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a href="/index.html">
+                <img src="/assets/img/logo_rachaclub.png" alt="Logo RachaClub">
+            </a>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li class="drop-hover-carros"><a href="#">Carros <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="drop">
+                        <a href="/pages/carros_paises/alemanha.html">Alemanha</a>
+                        <a href="/pages/carros_paises/brasil.html">Brasil</a>
+                        <a href="/pages/carros_paises/eua.html">Eua</a>
+                        <a href="/pages/carros_paises/franca.html">França</a>
+                        <a href="/pages/carros_paises/italia.html">Ítalia</a>
+                        <a href="/pages/carros_paises/japao.html">Japão</a>
+                        <a href="/pages/carros_paises/reino-unido.html">Reino-Unido</a>
+                    </div>
+                </li>
+                <li class="drop-hover-categorias"><a href="#">Categorias <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="drop">
+                        <a href="/pages/ranking_carros/mais_rapidos.html">Mais Rápidos</a>
+                        <a href="/pages/ranking_carros/melhor_aceleracao.html">Melhor Aceleração</a>
+                        <a href="/pages/ranking_carros/maior_potencia.html">Maior Potência</a>
+                        <a href="/pages/ranking_carros/mais_caros.html">Mais Caros</a>
+                        <a href="/pages/ranking_carros/custo_beneficio.html">Melhor Custo-Benefício</a>
+                        <a href="/pages/ranking_carros/tecnologicos.html">Mais Tecnológicos</a>
+                        <a href="/pages/ranking_carros/mais_raros.html">Mais Raros</a>
+                    </div>
+                </li>
+                <li><a href="/pages/projetos.html">Projetos</a></li>
+                <li><a href="/pages/noticias.html">Notícias</a></li>
+                <li><a href="/pages/sobre_nos.html">Sobre Nós</a></li>
+            </ul>
+            <button id="btnTema">☾</button>
+
+            <div class="container">
+                <div id="mensagem" class="fade"></div>
+            </div>
+        </div>
+        <hr class="linha-navbar">
+
+    </header>
+
+    <div class="bandeiras-carousel">
+        <div class="alemanha">
+            <a href="/pages/carros_paises/alemanha.html">
+                <img src="/assets/img/bandeiras-navbar/alemanha.png" alt="Alemanha">
+            </a>
+        </div>
+
+        <div class="brasil">
+            <a href="/pages/carros_paises/brasil.html">
+                <img src="/assets/img/bandeiras-navbar/brasil.png" alt="Brasil">
+            </a>
+        </div>
+
+        <div class="eua">
+            <a href="/pages/carros_paises/eua.html">
+                <img src="/assets/img/bandeiras-navbar/eua.png" alt="EUA">
+            </a>
+        </div>
+
+        <div class="franca">
+            <a href="/pages/carros_paises/franca.html">
+                <img src="/assets/img/bandeiras-navbar/frança.png" alt="França">
+            </a>
+        </div>
+
+        <div class="italia">
+            <a href="/pages/carros_paises/italia.html">
+                <img src="/assets/img/bandeiras-navbar/italia.png" alt="Italia">
+            </a>
+        </div>
+
+        <div class="japao">
+            <a href="/pages/carros_paises/japao.html">
+                <img src="/assets/img/bandeiras-navbar/japao.png" alt="Japao">
+            </a>
+        </div>
+
+        <div class="reino-unido">
+            <a href="/pages/carros_paises/reino-unido.html">
+                <img src="/assets/img/bandeiras-navbar/reino_unido.png" alt="Reino-Unido">
+            </a>
+        </div>
+    </div>
+
+    <section class="intro_melhor_aceleracao">
+        <h2>TOP CINCO</h2>
+        <h3>Mais caros!</h3>
+        <p>
+            Conheça os 5 carros mais caros desta seleção, modelos que combinam exclusividade, engenharia de elite e
+            desempenho extremo.
+            Cada um deles carrega tecnologias avançadas, materiais de altíssimo nível e produções limitadas que elevam
+            ainda mais seu
+            valor no mercado. Esses automóveis representam o ápice do luxo e da performance, reunindo potência,
+            sofisticação e raridade
+            em um só pacote. Prepare-se para descobrir máquinas que ultrapassam os limites da engenharia e definem o que
+            realmente significa
+            dirigir algo exclusivo. Aqui estão os verdadeiros titãs do preço e do prestígio.
+        </p>
+    </section>
+
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="btnRadio" id="radio1">
+            <input type="radio" name="btnRadio" id="radio2">
+            <input type="radio" name="btnRadio" id="radio3">
+            <input type="radio" name="btnRadio" id="radio4">
+            <input type="radio" name="btnRadio" id="radio5">
+
+            <div class="slide s1">
+
+                <p>
+                    Em primeiro lugar, o Bugatti Tourbillon ocupa o topo da lista como um dos carros mais caros e
+                    exclusivos já produzidos, atingindo valores na casa das dezenas de milhões.
+                    Seu design combina arte, engenharia e luxo em um nível quase inacessível para
+                    qualquer pessoa fora do círculo mais seleto de colecionadores. Equipado com um
+                    conjunto mecânico hiperavançado e acabamento artesanal, o Tourbillon é praticamente
+                    uma peça de museu em movimento. Cada detalhe, desde os materiais nobres até a
+                    aerodinâmica minuciosamente trabalhada, eleva o carro a um patamar de excelência.
+                    Pouquíssimas unidades serão fabricadas, garantindo uma exclusividade absoluta.
+
+                </p>
+                <img src="/assets/img/sliders/categorias/mais_caros/mais_caros/bugatti_tourbillon.png"
+                    alt="Slide 1">
+            </div>
+
+            <div class="slide">
+
+                <p>
+                    Em segundo lugar, o Pagani Zonda Cinque é uma das criações mais raras e desejadas da Pagani, com um
+                    preço multimilionário que reflete sua exclusividade extrema. Produzido em quantidade
+                    extremamente limitada, é literalmente uma obra de arte sobre rodas. Seu chassi de
+                    fibra de carbono, o motor AMG V12 e o design futurista mostram o compromisso de
+                    Horacio Pagani com a perfeição. Além do desempenho de tirar o fôlego, o Zonda Cinque
+                    impressiona pelo acabamento artesanal e pela atenção absoluta aos detalhes.
+                    Tornou-se um dos carros mais cultuados do mundo, tanto por colecionadores quanto por
+                    entusiastas.
+
+                </p>
+                <img src="/assets/img/sliders/categorias/mais_caros/mais_caros/pagani_zonda.png"
+                    alt="Slide 2">
+            </div>
+
+            <div class="slide">
+
+                <p>
+                    Em terceiro lugar, o Aston Martin Valkyrie é um hipercarro que nasceu da colaboração com a Red Bull
+                    Racing, carregando DNA direto da Fórmula 1. Com preço acima dos 3 milhões de dólares,
+                    ele foi projetado para ser o mais próximo possível de um carro de corrida legalizado
+                    para as ruas. Seu design ultra aerodinâmico, aliado ao motor V12 naturalmente aspirado
+                    desenvolvido pela Cosworth, oferece uma experiência de condução única. O cockpit minimalista
+                    e futurista prioriza o desempenho absoluto. O Valkyrie representa o ápice da engenharia
+                    britânica aplicada ao automobilismo.
+
+                </p>
+                <img src="/assets/img/sliders/categorias/mais_caros/mais_caros/martin_valkyrie.png"
+                    alt="Slide 3">
+            </div>
+
+            <div class="slide">
+
+                <p>
+                    Em quarto lugar, o Bugatti Chiron continua sendo um dos carros mais impressionantes do mundo, não
+                    apenas pelo desempenho mas também pelo preço que chega perto dos 3 milhões de
+                    dólares. Seu motor W16 quadriturbo é símbolo de potência extrema e engenharia sem
+                    limites. O interior reflete luxo absoluto, combinando materiais nobres e tecnologia
+                    de ponta. Além disso, o Chiron é famoso por sua estabilidade em velocidades
+                    superiores a 400 km/h, algo que pouquíssimos carros conseguem alcançar.
+                    Ele permanece como um ícone de prestígio, poder e exclusividade.
+                </p>
+                <img src="/assets/img/sliders/categorias/mais_caros/mais_caros/bugatti_chiron.png"
+                    alt="Slide 4">
+            </div>
+
+            <div class="slide">
+
+                <p>
+                    Em quinto lugar, o Pagani Huayra encerra a lista com seu preço aproximado de 2,7 milhões de dólares,
+                    trazendo a filosofia única da Pagani de unir arte e engenharia. Seu motor AMG V12
+                    biturbo oferece desempenho brutal, enquanto o chassi de materiais ultraleves garante
+                    agilidade impressionante. No interior, cada peça parece esculpida à mão, com níveis
+                    de acabamento que beiram o artístico. A aerodinâmica ativa é um dos destaques,
+                    ajustando o carro em tempo real para a melhor performance possível.
+                    O Huayra é um dos hipercarros mais belos e exclusivos já criados.
+                </p>
+                <img src="/assets/img/sliders/categorias/mais_caros/mais_caros/pagani_huayra.png"
+                    alt="Slide 5">
+            </div>
+
+            <div class="navegacao-auto">
+                <div class="btnAuto1"></div>
+                <div class="btnAuto2"></div>
+                <div class="btnAuto3"></div>
+                <div class="btnAuto4"></div>
+                <div class="btnAuto5"></div>
+            </div>
+
+        </div>
+
+
+        <div class="setas">
+            <span class="seta esquerda">&#10094;</span>
+            <span class="seta direita">&#10095;</span>
+        </div>
+    </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer>
+        <div class="container">
+            <ul>
+                <h3>RachaClub</h3>
+                <h4>Onde a velocidade encontra a cultura.</h4>
+                <img class="logo" src="/assets/img/logo_rachaclub.png" alt="Logo RachaClub">
+            </ul>
+
+            <ul>
+                <h3>MAPA DO SITE</h3>
+                  <li><a href="/index.html">Inicio</a></li>
+                <li class="footer-drop-hover">
+                    <a href="#">Carros <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="footer-drop">
+                        <a href="/pages/carros_paises/alemanha.html">Alemanha</a>
+                        <a href="/pages/carros_paises/brasil.html">Brasil</a>
+                        <a href="/pages/carros_paises/eua.html">Eua</a>
+                        <a href="/pages/carros_paises/franca.html">França</a>
+                        <a href="/pages/carros_paises/italia.html">Ítalia</a>
+                        <a href="/pages/carros_paises/japao.html">Japão</a>
+                        <a href="/pages/carros_paises/reino-unido.html">Reino-Unido</a>
+                    </div>
+                </li>
+
+                <li class="footer-drop-hover">
+                    <a href="#">Categorias <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="footer-drop">
+                        <a href="/pages/ranking_carros/mais_rapidos.html">Mais Rápidos</a>
+                        <a href="/pages/ranking_carros/melhor_aceleracao.html">Melhor Aceleração</a>
+                        <a href="/pages/ranking_carros/maior_potencia.html">Maior Potência</a>
+                        <a href="/pages/ranking_carros/mais_caros.html">Mais Caros</a>
+                        <a href="/pages/ranking_carros/custo_beneficio.html">Melhor Custo-Benefício</a>
+                        <a href="/pages/ranking_carros/tecnologicos.html">Mais Tecnológicos</a>
+                        <a href="/pages/ranking_carros/mais_raros.html">Mais Raros</a>
+                    </div>
+                </li>
+
+                <li><a href="/pages/projetos.html">Projetos</a></li>
+                <li><a href="/pages/noticias.html">Noticias</a></li>
+                <li><a href="/pages/sobre_nos.html">Sobre Nós</a></li>
+            </ul>
+
+            <ul>
+                <h3>CONTATO</h3>
+                <li><i class="fa-solid fa-house"></i> ETEC DE GUARULHOS</li>
+                <li><i class="fa-solid fa-envelope"></i> rachaclub@gmail.com</li>
+                <li><i class="fa-solid fa-phone-flip"></i> +55 (11) 99999-9999</li>
+            </ul>
+        </div>
+
+
+    </footer>
+
+    <div class="copy">
+        <p>
+            &copy; 2025 RachaClub. Todos os direitos reservados.
+        </p>
+    </div>
+
+
+
+    <script src="/assets/js/ranking_carros/mais_caros.js"></script>
+</body>
+
+</html>

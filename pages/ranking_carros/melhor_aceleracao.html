@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/img/logo_rachaclub.png">
+    <title>RachaClub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/assets/css/ranking_carros/melhor_aceleracao.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a href="/index.html">
+                <img src="/assets/img/logo_rachaclub.png" alt="Logo RachaClub">
+            </a>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li class="drop-hover-carros"><a href="#">Carros <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="drop">
+                        <a href="/pages/carros_paises/alemanha.html">Alemanha</a>
+                        <a href="/pages/carros_paises/brasil.html">Brasil</a>
+                        <a href="/pages/carros_paises/eua.html">Eua</a>
+                        <a href="/pages/carros_paises/franca.html">França</a>
+                        <a href="/pages/carros_paises/italia.html">Ítalia</a>
+                        <a href="/pages/carros_paises/japao.html">Japão</a>
+                        <a href="/pages/carros_paises/reino-unido.html">Reino-Unido</a>
+                    </div>
+                </li>
+                <li class="drop-hover-categorias"><a href="#">Categorias <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="drop">
+                        <a href="/pages/ranking_carros/mais_rapidos.html">Mais Rápidos</a>
+                        <a href="/pages/ranking_carros/melhor_aceleracao.html">Melhor Aceleração</a>
+                        <a href="/pages/ranking_carros/maior_potencia.html">Maior Potência</a>
+                        <a href="/pages/ranking_carros/mais_caros.html">Mais Caros</a>
+                        <a href="/pages/ranking_carros/custo_beneficio.html">Melhor Custo-Benefício</a>
+                        <a href="/pages/ranking_carros/tecnologicos.html">Mais Tecnológicos</a>
+                        <a href="/pages/ranking_carros/mais_raros.html">Mais Raros</a>
+                    </div>
+                </li>
+                <li><a href="/pages/projetos.html">Projetos</a></li>
+                <li><a href="/pages/noticias.html">Notícias</a></li>
+                <li><a href="/pages/sobre_nos.html">Sobre Nós</a></li>
+            </ul>
+            <button id="btnTema">☾</button>
+
+            <div class="container">
+                <div id="mensagem" class="fade"></div>
+            </div>
+        </div>
+        <hr class="linha-navbar">
+
+    </header>
+
+    <div class="bandeiras-carousel">
+        <div class="alemanha">
+            <a href="/pages/carros_paises/alemanha.html">
+                <img src="/assets/img/bandeiras-navbar/alemanha.png" alt="Alemanha">
+            </a>
+        </div>
+
+        <div class="brasil">
+            <a href="/pages/carros_paises/brasil.html">
+                <img src="/assets/img/bandeiras-navbar/brasil.png" alt="Brasil">
+            </a>
+        </div>
+
+        <div class="eua">
+            <a href="/pages/carros_paises/eua.html">
+                <img src="/assets/img/bandeiras-navbar/eua.png" alt="EUA">
+            </a>
+        </div>
+
+        <div class="franca">
+            <a href="/pages/carros_paises/franca.html">
+                <img src="/assets/img/bandeiras-navbar/frança.png" alt="França">
+            </a>
+        </div>
+
+        <div class="italia">
+            <a href="/pages/carros_paises/italia.html">
+                <img src="/assets/img/bandeiras-navbar/italia.png" alt="Italia">
+            </a>
+        </div>
+
+        <div class="japao">
+            <a href="/pages/carros_paises/japao.html">
+                <img src="/assets/img/bandeiras-navbar/japao.png" alt="Japao">
+            </a>
+        </div>
+
+        <div class="reino-unido">
+            <a href="/pages/carros_paises/reino-unido.html">
+                <img src="/assets/img/bandeiras-navbar/reino_unido.png" alt="Reino-Unido">
+            </a>
+        </div>
+    </div>
+
+    <section class="intro_melhor_aceleracao">
+        <h2>MELHOR ACELERAÇÃO</h2>
+        <h3>0 a 100km/h</h3>
+        <p>
+            Conheça os 5 carros com a melhor aceleração de 0 a 100 km/h, verdadeiras obras-primas da
+            engenharia automotiva. Criados para entregar máxima performance e resposta instantânea,
+            esses superesportivos combinam potência extrema, tração avançada e tecnologia de ponta para
+            atingir velocidades impressionantes em poucos segundos.
+        </p>
+    </section>
+
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="btnRadio" id="radio1">
+            <input type="radio" name="btnRadio" id="radio2">
+            <input type="radio" name="btnRadio" id="radio3">
+            <input type="radio" name="btnRadio" id="radio4">
+            <input type="radio" name="btnRadio" id="radio5">
+
+            <div class="slide s1">
+
+                <p>
+                    Em primeiro lugar, o Tesla Roadster ocupa o topo da lista com uma aceleração impressionante de
+                    aproximadamente 1,9 segundo, colocando-o entre os carros mais rápidos já projetados
+                    para as ruas. Equipado com motores elétricos de altíssimo desempenho,
+                    ele entrega torque instantâneo que o impulsiona com brutal eficiência.
+                    O design aerodinâmico e o baixo centro de gravidade, graças às baterias posicionadas
+                    no assoalho, contribuem para sua estabilidade extrema. Além da performance,
+                    o Roadster promete autonomia destacada e tecnologia avançada típica da Tesla.
+                    É uma demonstração clara do potencial máximo dos supercarros elétricos.
+                </p>
+                <img src="/assets/img/sliders/categorias/melhor_aceleracao/tesla_roadster.png" alt="Slide 1">
+            </div>
+
+            <div class="slide">
+
+                <p>
+                    Em segundo lugar, o Lucid Air Sapphire surge como uma das maiores ameaças ao domínio da Tesla no
+                    universo elétrico de alto desempenho. Com seus três motores elétricos, o modelo
+                    entrega potência acima de 1.200 cv, garantindo aceleração praticamente instantânea.
+                    Sua construção privilegia tanto desempenho quanto conforto, mantendo o ar de sedã de
+                    luxo, mas com alma de hipercarro. A tecnologia embarcada traz sistemas avançados de
+                    gerenciamento térmico que permitem repetições de aceleração sem perda significativa
+                    de desempenho. O Sapphire mostra que luxo e brutalidade podem andar lado a lado.
+                </p>
+                <img src="/assets/img/sliders/categorias/melhor_aceleracao/lucid_air.png" alt="Slide 2">
+            </div>
+
+            <div class="slide">
+
+                <p>
+                    Em terceiro lugar, a Ferrari SF90 Stradale combina a tradição das máquinas de Maranello com o que há
+                    de mais moderno na tecnologia híbrida. Seu conjunto, composto por um V8 biturbo
+                    aliado a três motores elétricos, proporciona mais de 1.000 cv. A aceleração de 2,3
+                    segundos é resultado de um equilíbrio perfeito entre potência, leveza e aerodinâmica
+                    trabalhada ao extremo. Além do desempenho, a SF90 oferece uma experiência de
+                    pilotagem altamente envolvente, típica da marca. A tecnologia híbrida não é apenas
+                    um auxílio — ela é parte essencial da identidade deste supercarro.
+                </p>
+                <img src="/assets/img/sliders/categorias/melhor_aceleracao/ferrari_sf90.png" alt="Slide 3">
+            </div>
+
+            <div class="slide">
+
+                <p>
+                    Em quarto lugar, o Porsche Taycan Turbo S mostra como a marca alemã conseguiu traduzir sua herança
+                    esportiva para o mundo elétrico. Com aceleração de 2,4 segundos, ele se destaca
+                    pela consistência: é capaz de repetir arrancadas sem perda de performance, algo
+                    raro em veículos elétricos. Seu chassi extremamente bem afinado garante estabilidade
+                    e precisão cirúrgica em curvas. O interior luxuoso e tecnológico mostra que o
+                    Taycan não é apenas veloz, mas também requintado. Trata-se de um dos elétricos mais
+                    equilibrados do mercado, combinando esportividade, sofisticação e inovação.
+                </p>
+                <img src="/assets/img/sliders/categorias/melhor_aceleracao/porsche_taycan.png" alt="Slide 4">
+            </div>
+
+            <div class="slide">
+
+                <p>
+                    Em quinto lugar, o Bugatti Chiron é um
+                    ícone absoluto entre os hipercarros. Equipado com um monumental motor W16
+                    quadriturbo de 1.500 cv, ele entrega uma força bruta quase incomparável.
+                    Sua aceleração de cerca de 2,4 segundos é acompanhada por uma velocidade final que
+                    ultrapassa facilmente os 400 km/h. O acabamento interno é digno de uma obra de arte
+                    automotiva, combinando luxo extremo com engenharia avançada. O Chiron continua sendo
+                    uma referência quando se fala em performance e exclusividade.
+                </p>
+                <img src="/assets/img/sliders/categorias/melhor_aceleracao/bugatti_chiron.png" alt="Slide 5">
+            </div>
+
+            <div class="navegacao-auto">
+                <div class="btnAuto1"></div>
+                <div class="btnAuto2"></div>
+                <div class="btnAuto3"></div>
+                <div class="btnAuto4"></div>
+                <div class="btnAuto5"></div>
+            </div>
+
+        </div>
+
+        <div class="setas">
+            <span class="seta esquerda">&#10094;</span>
+            <span class="seta direita">&#10095;</span>
+        </div>
+    </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+
+    <footer>
+        <div class="container">
+            <ul>
+                <h3>RachaClub</h3>
+                <h4>Onde a velocidade encontra a cultura.</h4>
+                <img class="logo" src="/assets/img/logo_rachaclub.png" alt="Logo RachaClub">
+            </ul>
+
+            <ul>
+                <h3>MAPA DO SITE</h3>
+                  <li><a href="/index.html">Inicio</a></li>
+                <li class="footer-drop-hover">
+                    <a href="#">Carros <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="footer-drop">
+                        <a href="/pages/carros_paises/alemanha.html">Alemanha</a>
+                        <a href="/pages/carros_paises/brasil.html">Brasil</a>
+                        <a href="/pages/carros_paises/eua.html">Eua</a>
+                        <a href="/pages/carros_paises/franca.html">França</a>
+                        <a href="/pages/carros_paises/italia.html">Ítalia</a>
+                        <a href="/pages/carros_paises/japao.html">Japão</a>
+                        <a href="/pages/carros_paises/reino-unido.html">Reino-Unido</a>
+                    </div>
+                </li>
+
+                <li class="footer-drop-hover">
+                    <a href="#">Categorias <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="footer-drop">
+                        <a href="/pages/ranking_carros/mais_rapidos.html">Mais Rápidos</a>
+                        <a href="/pages/ranking_carros/melhor_aceleracao.html">Melhor Aceleração</a>
+                        <a href="/pages/ranking_carros/maior_potencia.html">Maior Potência</a>
+                        <a href="/pages/ranking_carros/mais_caros.html">Mais Caros</a>
+                        <a href="/pages/ranking_carros/custo_beneficio.html">Melhor Custo-Benefício</a>
+                        <a href="/pages/ranking_carros/tecnologicos.html">Mais Tecnológicos</a>
+                        <a href="/pages/ranking_carros/mais_raros.html">Mais Raros</a>
+                    </div>
+                </li>
+
+                <li><a href="/pages/projetos.html">Projetos</a></li>
+                <li><a href="/pages/noticias.html">Noticias</a></li>
+                <li><a href="/pages/sobre_nos.html">Sobre Nós</a></li>
+            </ul>
+
+            <ul>
+                <h3>CONTATO</h3>
+                <li><i class="fa-solid fa-house"></i> ETEC DE GUARULHOS</li>
+                <li><i class="fa-solid fa-envelope"></i> rachaclub@gmail.com</li>
+                <li><i class="fa-solid fa-phone-flip"></i> +55 (11) 99999-9999</li>
+            </ul>
+        </div>
+
+    </footer>
+
+    <div class="copy">
+        <p>
+            &copy; 2025 RachaClub. Todos os direitos reservados.
+        </p>
+    </div>
+
+    <script src="/assets/js/ranking_carros/melhor_aceleracao.js"></script>
+</body>
+
+</html>

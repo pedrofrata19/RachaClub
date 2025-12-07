@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/img/logo_rachaclub.png">
+    <title>RachaClub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/assets/css/ranking_carros/custo_beneficio.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+             <a href="/index.html">
+                <img src="/assets/img/logo_rachaclub.png" alt="Logo RachaClub">
+            </a>
+            <ul>
+               <li><a href="/index.html">Inicio</a></li>
+                <li class="drop-hover-carros"><a href="#">Carros <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="drop">
+                        <a href="/pages/carros_paises/alemanha.html">Alemanha</a>
+                        <a href="/pages/carros_paises/brasil.html">Brasil</a>
+                        <a href="/pages/carros_paises/eua.html">Eua</a>
+                        <a href="/pages/carros_paises/franca.html">França</a>
+                        <a href="/pages/carros_paises/italia.html">Ítalia</a>
+                        <a href="/pages/carros_paises/japao.html">Japão</a>
+                        <a href="/pages/carros_paises/reino-unido.html">Reino-Unido</a>
+                    </div>
+                </li>
+                <li class="drop-hover-categorias"><a href="#">Categorias <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="drop">
+                        <a href="/pages/ranking_carros/mais_rapidos.html">Mais Rápidos</a>
+                        <a href="/pages/ranking_carros/melhor_aceleracao.html">Melhor Aceleração</a>
+                        <a href="/pages/ranking_carros/maior_potencia.html">Maior Potência</a>
+                        <a href="/pages/ranking_carros/mais_caros.html">Mais Caros</a>
+                        <a href="/pages/ranking_carros/custo_beneficio.html">Melhor Custo-Benefício</a>
+                        <a href="/pages/ranking_carros/tecnologicos.html">Mais Tecnológicos</a>
+                        <a href="/pages/ranking_carros/mais_raros.html">Mais Raros</a>
+                    </div>
+                </li>
+                <li><a href="/pages/projetos.html">Projetos</a></li>
+                <li><a href="/pages/noticias.html">Notícias</a></li>
+                <li><a href="/pages/sobre_nos.html">Sobre Nós</a></li>
+            </ul>
+            <button id="btnTema">☾</button>
+
+            <div class="container">
+                <div id="mensagem" class="fade"></div>
+            </div>
+        </div>
+        <hr class="linha-navbar">
+
+    </header>
+
+    <div class="bandeiras-carousel">
+        <div class="alemanha">
+            <a href="/pages/carros_paises/alemanha.html">
+                <img src="/assets/img/bandeiras-navbar/alemanha.png" alt="Alemanha">
+            </a>
+        </div>
+
+        <div class="brasil">
+            <a href="/pages/carros_paises/brasil.html">
+                <img src="/assets/img/bandeiras-navbar/brasil.png" alt="Brasil">
+            </a>
+        </div>
+
+        <div class="eua">
+            <a href="/pages/carros_paises/eua.html">
+                <img src="/assets/img/bandeiras-navbar/eua.png" alt="EUA">
+            </a>
+        </div>
+
+        <div class="franca">
+            <a href="/pages/carros_paises/franca.html">
+                <img src="/assets/img/bandeiras-navbar/frança.png" alt="França">
+            </a>
+        </div>
+
+        <div class="italia">
+            <a href="/pages/carros_paises/italia.html">
+                <img src="/assets/img/bandeiras-navbar/italia.png" alt="Italia">
+            </a>
+        </div>
+
+        <div class="japao">
+            <a href="/pages/carros_paises/japao.html">
+                <img src="/assets/img/bandeiras-navbar/japao.png" alt="Japao">
+            </a>
+        </div>
+
+        <div class="reino-unido">
+            <a href="/pages/carros_paises/reino-unido.html">
+                <img src="/assets/img/bandeiras-navbar/reino_unido.png" alt="Reino-Unido">
+            </a>
+        </div>
+    </div>
+
+    <section class="intro_melhor_aceleracao">
+        <h2>TOP CINCO</h2>
+        <h3>Melhores custo-benefício</h3>
+        <p>
+            Em um cenário automotivo cada vez mais competitivo, onde tecnologia, desempenho e inovação definem o futuro
+            das estradas, alguns modelos se destacam por entregar um equilíbrio excepcional entre valor e excelência.
+            Hoje, apresentamos os Top 5 carros com melhor custo-benefício do mundo, máquinas que combinam potência,
+            design avançado, conforto premium e uma experiência de direção única. Prepare-se para conhecer veículos que
+            vão além das expectativas e mostram como desempenho e qualidade podem transformar cada centavo investido em
+            pura vantagem.
+        </p>
+    </section>
+
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="btnRadio" id="radio1">
+            <input type="radio" name="btnRadio" id="radio2">
+            <input type="radio" name="btnRadio" id="radio3">
+            <input type="radio" name="btnRadio" id="radio4">
+            <input type="radio" name="btnRadio" id="radio5">
+
+            <div class="slide s1">
+
+                <p>
+                    Em primeiro lugar, o Volkswagen Golf R ocupa o primeiro lugar por unir desempenho muito acima da
+                    média com um
+                    preço consideravelmente mais acessível do que a maioria dos esportivos. Equipado com tração
+                    integral e motor turbo eficiente, ele oferece acelerações fortes e ótima estabilidade. É um
+                    carro versátil, podendo ser usado no dia a dia sem abrir mão da esportividade. Sua cabine
+                    bem-acabada e recheada de tecnologia traz a sensação de um veículo premium sem custar como
+                    um. O Golf R é a prova de que é possível ter performance de respeito gastando menos.
+
+                </p>
+                <img src="/assets/img/sliders/categorias/custo_beneficio/golf_r.png" alt="Slide 1">
+            </div>
+
+            <div class="slide">
+
+                <p>
+                    Em segundo lugar, o Audi TT RS entra em segundo lugar por entregar o lendário motor 2.5 TFSI de
+                    cinco
+                    cilindros, conhecido pelo ronco marcante e pela potência surpreendente. Ele acelera
+                    como poucos na sua faixa de preço e apresenta comportamento dinâmico extremamente
+                    afiado. O design esportivo e futurista combina com a proposta de desempenho
+                    empolgante. Além disso, o TT RS mantém um custo relativamente competitivo
+                    considerando seu nível de tecnologia e acabamentos. É uma excelente escolha para
+                    quem busca esportividade verdadeira sem chegar aos valores dos supercarros.
+                </p>
+                <img src="/assets/img/sliders/categorias/custo_beneficio/audi_tt.png" alt="Slide 2">
+            </div>
+
+            <div class="slide">
+
+                <p>
+                    Em terceiro lugar, o BMW M2 CS conquista sua posição pela combinação perfeita entre tamanho
+                    compacto, motor
+                    potente e direção precisa — uma fórmula clássica da linha M. Com um comportamento
+                    extremamente equilibrado, ele é considerado por muitos um dos melhores BMWs modernos para
+                    quem gosta de dirigir. Seu preço, embora mais elevado que o de alguns rivais, ainda se
+                    mantém dentro da categoria de “esportivos acessíveis” em relação ao desempenho entregue.
+                    O M2 CS oferece sensação pura de pilotagem, com dinâmica afiada e resposta direta. É um
+                    carro feito para entusiastas que valorizam controle e emoção.
+                </p>
+                <img src="/assets/img/sliders/categorias/custo_beneficio/bmw_m2.png" alt="Slide 3">
+            </div>
+
+            <div class="slide">
+
+                <p>
+                    Em quarto lugar, o Toyota GR86 é amplamente reconhecido como um dos esportivos mais divertidos e
+                    acessíveis do mercado. Seu foco não é potência extrema, mas sim equilíbrio, leveza e
+                    dirigibilidade envolvente. A tração traseira e o chassi bem afinado possibilitam uma
+                    experiência de pilotagem pura e estimulante. Além disso, seu preço competitivo o
+                    torna uma porta de entrada fantástica para o mundo dos carros esportivos.
+                    A manutenção relativamente barata e a confiabilidade Toyota completam o pacote,
+                    reforçando seu excelente custo-benefício.
+
+                </p>
+                <img src="/assets/img/sliders/categorias/custo_beneficio/gr86.png" alt="Slide 4">
+            </div>
+
+            <div class="slide">
+
+                <p>
+                    Em quinto lugar, o Subaru BRZ STI fecha a lista oferecendo desempenho consistente, tração traseira e
+                    o toque especial da divisão STI, que adiciona melhorias de dirigibilidade e estilo.
+                    Ele compartilha muito da essência do GR86, mas com personalidade própria,
+                    especialmente em termos de suspensão e resposta dinâmica. O BRZ STI oferece ótima
+                    performance por um valor ainda moderado, mantendo um equilíbrio entre diversão e
+                    custo. Seu interior simples, porém funcional, reflete a proposta purista do modelo.
+                    Para quem busca um esportivo emocionante sem exageros financeiros, ele é uma
+                    excelente escolha.
+                </p>
+                <img src="/assets/img/sliders/categorias/custo_beneficio/subaru_brz.png" alt="Slide 5">
+            </div>
+
+            <div class="navegacao-auto">
+                <div class="btnAuto1"></div>
+                <div class="btnAuto2"></div>
+                <div class="btnAuto3"></div>
+                <div class="btnAuto4"></div>
+                <div class="btnAuto5"></div>
+            </div>
+
+        </div>
+
+
+        <div class="setas">
+            <span class="seta esquerda">&#10094;</span>
+            <span class="seta direita">&#10095;</span>
+        </div>
+    </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br>
+
+    <footer>
+        <div class="container">
+            <ul>
+                <h3>RachaClub</h3>
+                <h4>Onde a velocidade encontra a cultura.</h4>
+                <img class="logo" src="/assets/img/logo_rachaclub.png" alt="Logo RachaClub">
+            </ul>
+
+            <ul>
+                <h3>MAPA DO SITE</h3>
+                   <li><a href="/index.html">Inicio</a></li>
+                <li class="footer-drop-hover">
+                    <a href="#">Carros <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="footer-drop">
+                        <a href="/pages/carros_paises/alemanha.html">Alemanha</a>
+                        <a href="/pages/carros_paises/brasil.html">Brasil</a>
+                        <a href="/pages/carros_paises/eua.html">Eua</a>
+                        <a href="/pages/carros_paises/franca.html">França</a>
+                        <a href="/pages/carros_paises/italia.html">Ítalia</a>
+                        <a href="/pages/carros_paises/japao.html">Japão</a>
+                        <a href="/pages/carros_paises/reino-unido.html">Reino-Unido</a>
+                    </div>
+                </li>
+
+                <li class="footer-drop-hover">
+                    <a href="#">Categorias <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="footer-drop">
+                        <a href="/pages/ranking_carros/mais_rapidos.html">Mais Rápidos</a>
+                        <a href="/pages/ranking_carros/melhor_aceleracao.html">Melhor Aceleração</a>
+                        <a href="/pages/ranking_carros/maior_potencia.html">Maior Potência</a>
+                        <a href="/pages/ranking_carros/mais_caros.html">Mais Caros</a>
+                        <a href="/pages/ranking_carros/custo_beneficio.html">Melhor Custo-Benefício</a>
+                        <a href="/pages/ranking_carros/tecnologicos.html">Mais Tecnológicos</a>
+                        <a href="/pages/ranking_carros/mais_raros.html">Mais Raros</a>
+                    </div>
+                </li>
+
+                <li><a href="/pages/projetos.html">Projetos</a></li>
+                <li><a href="/pages/noticias.html">Noticias</a></li>
+                <li><a href="/pages/sobre_nos.html">Sobre Nós</a></li>
+            </ul>
+
+            <ul>
+                <h3>CONTATO</h3>
+                <li><i class="fa-solid fa-house"></i> ETEC DE GUARULHOS</li>
+                <li><i class="fa-solid fa-envelope"></i> rachaclub@gmail.com</li>
+                <li><i class="fa-solid fa-phone-flip"></i> +55 (11) 99999-9999</li>
+            </ul>
+        </div>
+
+
+    </footer>
+
+    <div class="copy">
+        <p>
+            &copy; 2025 RachaClub. Todos os direitos reservados.
+        </p>
+    </div>
+
+    <script src="/assets/js/ranking_carros/custo_beneficio.js"></script>
+</body>
+
+</html>

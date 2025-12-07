@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    background-image: url(/assets/img/login-cadastro/fundo_cadastro.png);
+    background-repeat: no-repeat;
+    background-size: 256vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo_rachaclub {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.logo_rachaclub img {
+    width: 200px;
+    height: 150px;
+    margin-top: 100px;
+}
+.container {
+    margin-top: -100px;
+    width: 600px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 250px;
+    position: relative;
+}
+
+.forms-login {
+    width: 75%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.input-box {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input-box i {
+    position: absolute;
+    top: 12px;
+    font-size: 18px;
+    color: #666;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 12px 12px 12px 40px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.3s;
+    margin-left: -15px;
+}
+
+.input-box input:hover {
+    border: 1px solid #d80027;
+    box-shadow: 0 0 5px #d80027;
+}
+
+.cadastro {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.cadastro a {
+    color: #ffffff;
+}
+
+.cadastro a:hover {
+    color: #d80027;
+    transition: 0.7s;
+}
+
+button {
+    width: 300px;
+    padding: 12px;
+    background: #d80027;
+    border: none;
+    color: #fff;
+    border-radius: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #be0124;
+    transition: 0.7s;
+}
+
+
+body.dark footer{
+
+    background-color: #0f0f0f;
+}
+
+body.dark .copy {
+    background-color:#121212 ;
+}
+
+
+.teste {
+ 
+}

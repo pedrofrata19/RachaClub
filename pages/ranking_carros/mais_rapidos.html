@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/img/logo_rachaclub.png">
+    <title>RachaClub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/assets/css/ranking_carros/mais_rapidos.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+             <a href="/index.html">
+                <img src="/assets/img/logo_rachaclub.png" alt="Logo RachaClub">
+            </a>
+            <ul>
+               <li><a href="/index.html">Inicio</a></li>
+                <li class="drop-hover-carros"><a href="#">Carros <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="drop">
+                        <a href="/pages/carros_paises/alemanha.html">Alemanha</a>
+                        <a href="/pages/carros_paises/brasil.html">Brasil</a>
+                        <a href="/pages/carros_paises/eua.html">Eua</a>
+                        <a href="/pages/carros_paises/franca.html">França</a>
+                        <a href="/pages/carros_paises/italia.html">Ítalia</a>
+                        <a href="/pages/carros_paises/japao.html">Japão</a>
+                        <a href="/pages/carros_paises/reino-unido.html">Reino-Unido</a>
+                    </div>
+                </li>
+                <li class="drop-hover-categorias"><a href="#">Categorias <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="drop">
+                        <a href="/pages/ranking_carros/mais_rapidos.html">Mais Rápidos</a>
+                        <a href="/pages/ranking_carros/melhor_aceleracao.html">Melhor Aceleração</a>
+                        <a href="/pages/ranking_carros/maior_potencia.html">Maior Potência</a>
+                        <a href="/pages/ranking_carros/mais_caros.html">Mais Caros</a>
+                        <a href="/pages/ranking_carros/custo_beneficio.html">Melhor Custo-Benefício</a>
+                        <a href="/pages/ranking_carros/tecnologicos.html">Mais Tecnológicos</a>
+                        <a href="/pages/ranking_carros/mais_raros.html">Mais Raros</a>
+                    </div>
+                </li>
+                <li><a href="/pages/projetos.html">Projetos</a></li>
+                <li><a href="/pages/noticias.html">Notícias</a></li>
+                <li><a href="/pages/sobre_nos.html">Sobre Nós</a></li>
+            </ul>
+            <button id="btnTema">☾</button>
+
+            <div class="container">
+                <div id="mensagem" class="fade"></div>
+            </div>
+        </div>
+        <hr class="linha-navbar">
+
+    </header>
+
+    <div class="bandeiras-carousel">
+        <div class="alemanha">
+            <a href="/pages/carros_paises/alemanha.html">
+                <img src="/assets/img/bandeiras-navbar/alemanha.png" alt="Alemanha">
+            </a>
+        </div>
+
+        <div class="brasil">
+            <a href="/pages/carros_paises/brasil.html">
+                <img src="/assets/img/bandeiras-navbar/brasil.png" alt="Brasil">
+            </a>
+        </div>
+
+        <div class="eua">
+            <a href="/pages/carros_paises/eua.html">
+                <img src="/assets/img/bandeiras-navbar/eua.png" alt="EUA">
+            </a>
+        </div>
+
+        <div class="franca">
+            <a href="/pages/carros_paises/franca.html">
+                <img src="/assets/img/bandeiras-navbar/frança.png" alt="França">
+            </a>
+        </div>
+
+        <div class="italia">
+            <a href="/pages/carros_paises/italia.html">
+                <img src="/assets/img/bandeiras-navbar/italia.png" alt="Italia">
+            </a>
+        </div>
+
+        <div class="japao">
+            <a href="/pages/carros_paises/japao.html">
+                <img src="/assets/img/bandeiras-navbar/japao.png" alt="Japao">
+            </a>
+        </div>
+
+        <div class="reino-unido">
+            <a href="/pages/carros_paises/reino-unido.html">
+                <img src="/assets/img/bandeiras-navbar/reino_unido.png" alt="Reino-Unido">
+            </a>
+        </div>
+    </div>
+
+    <section class="intro_melhor_aceleracao">
+        <h2>TOP CINCO</h2>
+        <h3>Mais Rápidos!</h3>
+        <p>
+            Os carros mais rápidos do mundo representam a máxima expressão da inovação automotiva.
+            Criados para quebrar recordes e desafiar a física, esses modelos combinam
+            aerodinâmica avançada, motores de altíssima performance e tecnologias inspiradas nas pistas de corrida.
+            Mais do que veículos, são máquinas projetadas para transformar velocidade em emoção pura.
+            Nesta apresentação, vamos explorar os supercarros que redefinem o conceito de aceleração, equilíbrio e
+            controle,
+            mostrando até onde a engenharia moderna pode chegar quando a busca pela rapidez é levada ao extremo.
+        </p>
+    </section>
+
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="btnRadio" id="radio1">
+            <input type="radio" name="btnRadio" id="radio2">
+            <input type="radio" name="btnRadio" id="radio3">
+            <input type="radio" name="btnRadio" id="radio4">
+            <input type="radio" name="btnRadio" id="radio5">
+
+            <div class="slide s1">
+
+                <p>
+                    Em primweiro lugar, o SSC Tuatara lidera a lista como um dos carros mais rápidos já produzidos, com
+                    velocidade superior a 450 km/h.
+                    Apesar de polêmicas envolvendo seus recordes, oficialmente permanece como um dos veículos mais
+                    velozes do mundo.
+                    Seu design é extremamente aerodinâmico, inspirado em caças supersônicos. A construção leve em fibra
+                    de carbono
+                    favorece estabilidade em altíssimas velocidades. O Tuatara foi projetado para ultrapassar
+                    limites e redefinir padrões de hiperdesempenho.
+
+                </p>
+                <img src="/assets/img/sliders/categorias/mais_rapidos/ssc_tuatara.png" alt="Slide 1">
+            </div>
+
+            <div class="slide">
+
+                <p>
+                    Em segundo lugar, o Hennessey Venom F5 promete atingir mais de 500 km/h, consolidando suas ambições
+                    de quebrar recordes.
+                    Seu motor V8 biturbo entrega potência colossal, permitindo acelerações brutais. A aerodinâmica foi
+                    meticulosamente
+                    trabalhada para reduzir arrasto e aumentar eficiência. Sua estrutura leve contribui diretamente para
+                    alcançar velocidades extremas. É um hiper carro criado para desafiar a física e entrar para a
+                    história
+                    da velocidade.
+
+                </p>
+                <img src="/assets/img/sliders/categorias/mais_rapidos/venom_f5.png" alt="Slide 2">
+            </div>
+
+            <div class="slide">
+
+                <p>
+                    Em terceiro lugar, o Bugatti Chiron ocupa a terceira posição, alcançando mais de 420 km/h com seu
+                    lendário motor W16 quadriturbo.
+                    Ele combina luxo e brutalidade mecânica em um pacote único. O chassi foi desenvolvido para oferecer
+                    estabilidade
+                    absoluta em velocidades absurdamente altas. A engenharia francesa garante controle e precisão em
+                    qualquer situação.
+                    O Chiron é um ícone que une sofisticação e desempenho extremo.
+
+                </p>
+                <img src="/assets/img/sliders/categorias/mais_rapidos/bugatti_chiron.png" alt="Slide 3">
+            </div>
+
+            <div class="slide">
+
+                <p>
+                    Em quarto lugar, o Bugatti Divo atinge cerca de 380 km/h, priorizando agilidade e dirigibilidade em
+                    curvas em vez da
+                    velocidade máxima absoluta. Seu aeropacote gera muito mais downforce, permitindo comportamento
+                    esportivo superior.
+                    Mesmo assim, permanece extremamente rápido comparado a qualquer supercarro convencional. O design
+                    agressivo reflete
+                    sua proposta mais radical. É uma versão mais afiada e focada do já impressionante DNA Bugatti.
+                </p>
+                <img src="/assets/img/sliders/categorias/mais_rapidos/bugatti_divo.png" alt="Slide 4">
+            </div>
+
+            <div class="slide">
+
+                <p>
+                    Em quinto lugar, o McLaren P1 fecha o ranking com velocidade acima de 350 km/h, combinando motor V8
+                    biturbo com tecnologia híbrida.
+                    Sua aerodinâmica ativa foi projetada para maximizar desempenho nas pistas. A construção leve em
+                    fibra de carbono
+                    contribui para respostas rápidas e estabilidade. O P1 é considerado um marco da McLaren pela
+                    inovação
+                    e eficiência. Representa o equilíbrio perfeito entre eletrificação e performance extrema.
+                </p>
+                <img src="/assets/img/sliders/categorias/mais_rapidos/mclaren_p1.png" alt="Slide 5">
+            </div>
+
+            <div class="navegacao-auto">
+                <div class="btnAuto1"></div>
+                <div class="btnAuto2"></div>
+                <div class="btnAuto3"></div>
+                <div class="btnAuto4"></div>
+                <div class="btnAuto5"></div>
+            </div>
+
+        </div>
+
+        <div class="setas">
+            <span class="seta esquerda">&#10094;</span>
+            <span class="seta direita">&#10095;</span>
+        </div>
+    </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br>
+
+    <footer>
+        <div class="container">
+            <ul>
+                <h3>RachaClub</h3>
+                <h4>Onde a velocidade encontra a cultura.</h4>
+                <img class="logo" src="/assets/img/logo_rachaclub.png" alt="Logo RachaClub">
+            </ul>
+
+            <ul>
+                <h3>MAPA DO SITE</h3>
+                 <li><a href="/index.html">Inicio</a></li>
+                <li class="footer-drop-hover">
+                    <a href="#">Carros <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="footer-drop">
+                        <a href="/pages/carros_paises/alemanha.html">Alemanha</a>
+                        <a href="/pages/carros_paises/brasil.html">Brasil</a>
+                        <a href="/pages/carros_paises/eua.html">Eua</a>
+                        <a href="/pages/carros_paises/franca.html">França</a>
+                        <a href="/pages/carros_paises/italia.html">Ítalia</a>
+                        <a href="/pages/carros_paises/japao.html">Japão</a>
+                        <a href="/pages/carros_paises/reino-unido.html">Reino-Unido</a>
+                    </div>
+                </li>
+
+                <li class="footer-drop-hover">
+                    <a href="#">Categorias <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="footer-drop">
+                        <a href="/pages/ranking_carros/mais_rapidos.html">Mais Rápidos</a>
+                        <a href="/pages/ranking_carros/melhor_aceleracao.html">Melhor Aceleração</a>
+                        <a href="/pages/ranking_carros/maior_potencia.html">Maior Potência</a>
+                        <a href="/pages/ranking_carros/mais_caros.html">Mais Caros</a>
+                        <a href="/pages/ranking_carros/custo_beneficio.html">Melhor Custo-Benefício</a>
+                        <a href="/pages/ranking_carros/tecnologicos.html">Mais Tecnológicos</a>
+                        <a href="/pages/ranking_carros/mais_raros.html">Mais Raros</a>
+                    </div>
+                </li>
+
+                <li><a href="/pages/projetos.html">Projetos</a></li>
+                <li><a href="/pages/noticias.html">Noticias</a></li>
+                <li><a href="/pages/sobre_nos.html">Sobre Nós</a></li>
+            </ul>
+
+            <ul>
+                <h3>CONTATO</h3>
+                <li><i class="fa-solid fa-house"></i> ETEC DE GUARULHOS</li>
+                <li><i class="fa-solid fa-envelope"></i> rachaclub@gmail.com</li>
+                <li><i class="fa-solid fa-phone-flip"></i> +55 (11) 99999-9999</li>
+            </ul>
+        </div>
+
+
+    </footer>
+
+    <div class="copy">
+        <p>
+            &copy; 2025 RachaClub. Todos os direitos reservados.
+        </p>
+    </div>
+    <script src="/assets/js/ranking_carros/mais_rapidos.js"></script>
+</body>
+
+</html>
